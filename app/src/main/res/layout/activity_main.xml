@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsms"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS" />
+
+    <Button
+        android:id="@+id/btncamera"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAMERA" />
+
+    <Button
+        android:id="@+id/btnmpesa"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MPESA" />
+
+    <Button
+        android:id="@+id/btnwebsite"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEBSITE" />
+
+    <Button
+        android:id="@+id/btnemail"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL" />
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL" />
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAP" />
+</RelativeLayout>
